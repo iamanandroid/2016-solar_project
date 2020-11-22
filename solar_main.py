@@ -65,7 +65,6 @@ def stop_execution():
     start_button['text'] = "Start"
     start_button['command'] = start_execution
     data(space_objects, physical_time)
-    graph(space_objects)
     print('Paused execution.')
 
 
